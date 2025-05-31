@@ -477,6 +477,484 @@
 
   }
 
+/* header */
+*{
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(245, 235, 220);
+
+}
+
+
+.topBar{
+display: flex;
+align-items: center;
+padding-top: auto;
+padding-bottom: auto;
+padding: 15px;
+margin-bottom:15px;
+justify-content:  space-between;
+align-items: center;
+background-color: rgb(245, 235, 220);
+
+}
+
+.topbarlogo img{
+    width:100%;
+}
+
+.topbarlogo{
+
+width:20px;
+margin-left: 25px;
+margin-right: 0px;
+
+
+
+}
+.topbaroptions {
+display:flex;
+align-items: center;
+
+
+}
+
+.topbaroptions a{
+   
+    color:#502314;
+    text-decoration: none;
   
+  font-family: Flame, "Cooper Black", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 1.125rem;
+  margin-left: 1.3rem;
+}
+
+.topbaroptions a:hover{
+
+    color: rgb(214, 35, 002);
+transition: all 0.5s;
 
 
+}
+
+
+
+.burgerLogo{
+width:100px;
+margin-left:75px;
+
+}
+
+.burgerLogo img{
+    width:100%;
+    
+}
+
+.joining{
+margin-left:295px;
+display: flex;
+align-items: center;
+}
+
+.sign {
+    text-decoration:none;
+    color:white;
+    border:1px solid #502314;
+    background-color:  rgb(214, 35, 002);
+    border-radius:30px;
+    padding:6px 15px; 
+    font-size:15px;
+    font-weight :700;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+  margin-right:20px;
+}
+
+.sign:hover{
+background:white;
+color:  rgb(214, 35, 002);
+transition:all 0.7s;
+
+}
+
+.amount{
+    text-decoration:none;
+    color:black;
+    border:1px solid black;
+    background-color:rgb(245, 235, 220);
+    border-radius:30px;
+    padding:6px 15px;
+    margin-right: 20px;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+
+
+}
+
+ .amount:hover{
+    cursor: pointer;
+    background-color:white;
+    color:black;   
+    
+    transition: all 0.8s;
+}
+
+.amount .money:hover{
+    color:black;
+}
+
+
+
+
+
+.amount img{
+    width:20px;
+    background-color: transparent;
+    margin:0px 10px 0px 0px;
+    align-self: center;
+    padding: 0px;
+}
+
+.amount .money{
+    text-decoration: none;
+    background-color: transparent;
+    color:black;
+    text-align: center;
+    font-size:15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+font-weight: 600;
+
+}
+
+#theme{
+    width: 40px;
+    margin:0px 20px 0px 0px;
+    padding: 0px;
+    background-color: transparent;
+    align-self: center;
+    cursor: pointer;
+    border:none;
+    border-radius: 50%;
+}
+
+#theme img{
+    width:100%;
+    height: 100% ;
+    background-color: transparent;
+    align-self: center;
+    border:none;
+    border-radius: 50%;
+   
+}
+
+
+@media (max-width:1100px){ 
+ 
+    .sign,.amount{
+        display:none;
+    }
+    .topbaroptions{
+        display:flex;
+        align-items: center;
+        justify-content: center;
+    }   
+
+    .joining{
+        margin-left:0px;
+    }
+    
+    .burgerLogo{
+        display:none;
+    }
+    
+
+ 
+}
+
+@media (max-width:600px){ 
+ 
+    .sign,.amount{
+        display:none;
+    }
+    .topbaroptions{
+        display:flex;
+        align-items: center;
+        justify-content: center;
+    }   
+
+    .joining{
+        margin-left:0px;
+    }
+    
+    .burgerLogo{
+        display:none;
+    }
+    
+    .topbarlogo{
+
+        display: none;
+
+    }
+
+    #m,#m1{
+        display:none;
+    }
+ 
+}
+    
+
+/* footer */
+.footwrap {
+  margin-top: 100px;
+  border-top: 1px solid  rgba(245, 198, 205, 0.486);
+margin-top: auto;
+  display: flex;
+  background-color:   rgba(245, 198, 205, 0.486);
+}
+
+.footimg img {
+  width: 480px;
+  height: 636px;
+  background-color: transparent;
+  bottom: 0;
+}
+
+.footimg {
+  width: 434px;
+  height: 489px;
+  align-items: flex-end;
+  background-color: transparent;
+  margin-left: 430px;
+  margin-top: -145px;
+}
+
+.foottxt {
+  display: flex;
+  flex-direction: column;
+  padding: 48px 40px 80px 0px;
+  background-color: transparent;
+
+}
+h1 {
+  color: #502314;
+  font-size: 56px;
+  font-weight: 900;
+  font-family: "Flame Bold", "Helvetica Neue", Helvetica, Arial, Verdana,
+    sans-serif;
+    background-color: transparent;
+  margin: 0px;
+  padding: 0px;
+}
+
+.foottxt {
+  padding: 48px 40px 80px 0px;
+  background-color: transparent;
+}
+
+h2 {
+  color: #502314;
+  margin: 0px 0px 20px;
+  font-size: 51px;
+  font-weight: 900;
+  font-family: "Flame Bold", "Helvetica Neue", Helvetica, Arial, Verdana,
+    sans-serif;
+  line-height: 0.8;
+  background-color:transparent;
+}
+
+.footdescript {
+  margin: 32px 0px 0px;
+  color: rgb(80, 35, 20);
+  font-size: 15px;
+  word-spacing: 1px;
+  background-color:transparent;
+}
+
+
+.andioslogo{
+margin-top:30px;
+  display: flex;
+  background-color:transparent;
+  align-items: center;
+}
+
+
+.andioslogo .img1 img{
+width:100%;
+  background-color: transparent;
+}
+
+.andioslogo .img1{
+width:133px;
+height: 43px;
+background-color: transparent;
+margin-right: 30px;
+}
+
+
+
+.andioslogo .img2 img{
+width:100%;
+  background-color: transparent;
+}
+
+.andioslogo .img2{
+width:133px;
+height: 43px;
+background-color: transparent;
+}
+
+
+@media (max-width:1100px){
+
+  .footwrap{
+    display: flex;
+    flex-direction: column;
+    align-items:   space-around;
+    justify-content: center;
+    background-color: transparent;
+  }
+
+  .footimg .img{
+    height: 400px;
+  }
+  .footimg{
+    margin-left: 90px;
+    margin-bottom: 50px;
+  }
+
+  .foottxt{
+    padding-left: 50px;
+  }
+}
+
+
+/* footer2 */
+.footer2{
+    background-color: #2b0200;
+   padding: 90px 120px 50px;
+}
+
+
+
+.mainwrap{
+
+    background-color: #2b0200;
+ 
+}
+
+
+.maincontain{
+    background-color: #2b0200;
+    display:flex;
+    border-bottom: 1px solid white;
+    padding-top:0px ;
+    padding:20px 0px 64px;
+    
+}
+
+.lists{
+    background-color: #2b0200;
+   width:277px;
+   
+}
+
+h3{
+
+    background-color: #2b0200;
+    color:  rgb(245, 235, 220);
+    font-size: 1.625rem;
+    margin-top: 0px;
+    font-weight: 800;
+    height: 40px;
+}
+
+.lists li{
+    background-color: #2b0200;
+list-style: none;
+
+}
+
+.lists li a{
+    background-color: #2b0200;
+text-decoration: none;
+color:white;
+margin: 0px;
+    color: rgb(187, 163, 145);
+    font-size: 0.9375rem;
+    font-family: "Flame Sans", "Helvetica Neue", Helvetica, Arial, Verdana, sans-serif;
+    text-align: left;
+    text-transform: none;
+    text-decoration: none;
+    line-height: 1.6;
+    cursor: pointer;
+}
+
+
+
+.honour h1{
+
+    background-color: #2b0200;
+    color: aliceblue;
+   font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+font-weight: 100;
+color: mediumspringgreen;
+transition: all 0.5s;
+text-align: left;
+font-size: 30px;
+padding-top: 10px;
+padding-bottom: 10px;
+letter-spacing: 1px;
+
+}
+
+.honour h1:hover{
+    /* transition: all 0.7s; */
+    cursor: pointer;
+    /* font-size: 35px; */
+    color:aquamarine;
+}
+
+ .place{
+
+    background-color: #2b0200;
+color:whitesmoke;
+font-size: 25px;
+text-align:left;
+margin-top: 20px;
+display: inline-flex;
+color:aquamarine;
+}
+
+.place:hover{
+    cursor: pointer;
+    /* font-size:27px; */
+    transition: all 0.5s;
+    display: inline-flex;
+
+}
+
+@media (max-width:1000px){
+    .maincontain{
+        display:flex;
+        flex-direction: column;
+        padding:0px;
+    }
+    .lists{
+        width:100%;
+    }
+    .honour h1{
+        font-size:25px;
+    }
+    .place{
+        font-size:20px;
+    }
+}
+
+@media (max-width:500px){
+    .footer2{
+        display:none;
+    }
+ 
+}
